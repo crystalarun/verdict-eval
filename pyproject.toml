@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verdict-eval"
+version = "0.1.0"
+description = "Release gate for Verdict Desk. Fail the build when a golden case regresses."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Arun Kumar" }]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
